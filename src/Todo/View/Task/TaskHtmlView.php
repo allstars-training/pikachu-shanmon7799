@@ -17,5 +17,5 @@ use Windwalker\Core\View\HtmlView;
  */
 class TaskHtmlView extends HtmlView
 {
-
+	protected $renderer = 'edge';
 }

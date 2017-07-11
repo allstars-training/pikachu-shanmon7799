@@ -17,5 +17,5 @@ use Windwalker\Core\Package\AbstractPackage;
  */
 class TodoPackage extends AbstractPackage
 {
-	protected $renderer = 'edge';
+
 }

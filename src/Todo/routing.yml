@@ -4,3 +4,7 @@ home:
 task:
     pattern: /task(/id)
     controller: Task
+    variables:
+        foo: bar
+    extra:
+        flower: sakura
