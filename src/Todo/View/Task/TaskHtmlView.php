@@ -6,16 +6,16 @@
  * @license    __LICENSE__
  */
 
-namespace Todo;
+namespace Todo\View\Task;
 
-use Windwalker\Core\Package\AbstractPackage;
+use Windwalker\Core\View\HtmlView;
 
 /**
- * The TodoPackage class.
+ * The TaskHtmlView class.
  *
  * @since  __DEPLOY_VERSION__
  */
-class TodoPackage extends AbstractPackage
+class TaskHtmlView extends HtmlView
 {
-	protected $renderer = 'edge';
+
 }

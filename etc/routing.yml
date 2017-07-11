@@ -2,6 +2,6 @@ main:
     pattern: /
     package: main
 
-task:
-    pattern: /task
-    package: Task
+todo:
+    pattern: /todo
+    package: todo

@@ -22,8 +22,6 @@ return [
 	 */
 	'packages' => [
 		'todo' => \Todo\TodoPackage::class,
-
-		'flower' => \Asuka\Flower\FlowerPackage::class,
 	],
 
 	/*

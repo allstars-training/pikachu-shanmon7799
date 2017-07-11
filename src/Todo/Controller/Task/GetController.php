@@ -25,6 +25,8 @@ class GetController extends AbstractController
 	 */
 	protected function doExecute()
 	{
-		return "Hello Todo";
+		$view = $this->getView('Task');
+
+		return $view->render();
 	}
 }

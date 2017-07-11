@@ -1,4 +1,6 @@
-
-item:
-    pattern: /item
-    controller: Item
+home:
+    pattern: /
+    controller: Home
+task:
+    pattern: /task(/id)
+    controller: Task
