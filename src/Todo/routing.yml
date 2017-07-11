@@ -1,0 +1,4 @@
+
+item:
+    pattern: /item
+    controller: Item
